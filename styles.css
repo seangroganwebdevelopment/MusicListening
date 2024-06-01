@@ -1,0 +1,94 @@
+
+@import url();
+
+/* --------------RESEt-------------- */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid lime !important; */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit; 
+}
+
+/* || VArIABLES */
+
+:root {
+
+    
+
+    /* FONTS  */
+
+    --FF: "Nunito", sans-serif;
+    --FF-HEADINGS: "Fugaz One", cursive; 
+    --FS: clamp(1rem, 2.2vh, 1.5rem); 
+
+    /* COLORS */
+
+    --BGCOLOR: #ffa500;
+    background-color: var(--BGCOLOR);
+    --ALT-BGCOLOR: #C9C9C9;
+
+  }
+
+  /* || UTILITY CLASSES */
+
+
+/* ------------------------ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
